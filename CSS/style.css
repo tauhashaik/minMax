@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+}
+#group{
+    border: 2px solid aqua;
+}
+.header{
+    color: aqua;
+    text-align: center;
+}
+#inputGroup-sizing-lg{
+    background-color: grey;
+    color: aqua;
+}
+
+#calcBtn1{
+    background-color: black;
+    border-color: aqua;
+    margin-top:25px;
+    color: aqua;
+}
+#calcBtn2{
+    background-color: black;
+    border-color: aqua;
+    margin-top:25px;
+    color: aqua;
+    margin-bottom: 20px ;
+}
+#calcBtn1:hover{
+    background-color: aqua;
+    color: black;
+    font-size: large;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#calcBtn2:hover{
+    background-color: aqua;
+    color: black;
+    font-size: large;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#input{
+    padding: 10px;
+    width: 1200px;
+}
+
+@media screen and (max-width: 300px) {
+    #input {
+        width: 90%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 720px) {
+    #input {
+        width: 90%;
+        margin: auto;
+    }
+}
